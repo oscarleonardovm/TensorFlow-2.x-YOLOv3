@@ -37,7 +37,7 @@ if YOLO_TYPE                == "yolov3":
 TRAIN_YOLO_TINY             = False
 TRAIN_SAVE_BEST_ONLY        = True # saves only best model according validation loss (True recommended)
 TRAIN_SAVE_CHECKPOINT       = False # saves all best validated checkpoints in training process (may require a lot disk space) (False recommended)
-TRAIN_CLASSES               = "mnist/mnist.names"
+TRAIN_CLASSES               = "mnist/mnist.names" #Donde están los nombres de los 
 TRAIN_ANNOT_PATH            = "mnist/mnist_train.txt"
 TRAIN_LOGDIR                = "log"
 TRAIN_CHECKPOINTS_FOLDER    = "checkpoints"
